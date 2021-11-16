@@ -37,6 +37,15 @@ body{
    
 }
 
+@media (min-width: 648px) {
+    .card{
+        width:250px;
+        height: 500px;
+        padding: 2.9rem 1rem;
+    }
+    
+}
+
 .card__icon{
     margin-bottom: 2rem;
 
