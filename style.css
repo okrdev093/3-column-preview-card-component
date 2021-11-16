@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+   
+font-family: 'Lexend Deca', sans-serif;
+font-size: 15px;
+
+    
+}
+body{
+    height: 100vh;
+}
+.container{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+@media (min-width: 648px) {
+    .container{
+        height: 100vh;
+        flex-wrap: nowrap;
+    }
+
+
+}
+
+.card{
+    width: 320px;
+    height: 445px;
+    padding:2.9rem;
+   
+}
+
+.card__icon{
+    margin-bottom: 2rem;
+
+}
+
+
+.card__title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.card__description{
+    margin-bottom: 2rem;
+}
+
+.card__cta{
+ padding: .7rem .5rem;
+  width: 150px;
+ background-color: hsl(0, 0%, 95%);
+ border-radius: 2rem;
+ text-align: center;
+ cursor:pointer;
+}
+
+.card__cta:hover{
+    background-color:inherit;
+    border: 2px solid  hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%);
+    
+}
+
+.color-bg-orange{
+ background-color: hsl(31, 77%, 52%);
+}
+.color-bg-cyan{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.color-bg-green{
+    background-color:hsl(179, 100%, 13%)
+}
+
+.color-orange{
+    color: hsl(31, 77%, 52%);
+   }
+.color-cyan{
+    color:hsl(184, 100%, 22%);
+}
+   
+.color-green{
+    color:hsl(179, 100%, 13%)
+}
+
+.rounded-start{
+    border-radius: 10px 10px 0 0;
+}
+
+
+@media (min-width: 648px) {
+    .rounded-start{
+        border-radius: 10px 0 0 10px;
+    }
+    
+}
+
+.rounded-end{
+    border-radius: 0 0 10px 10px ;
+}
+
+@media (min-width: 648px) {
+    .rounded-end{
+        border-radius: 0 10px 10px 0;
+    }
+    
+}
